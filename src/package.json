@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-tools",
+  "version": "1.0.0",
+  "description": "dashboard tools desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "electron"
+  ],
+  "author": "CarlosNeimar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}
